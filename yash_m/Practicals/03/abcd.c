@@ -24,7 +24,7 @@ void main()
 
     //Reading the search element
     printf("\nEnter the search element: ");
-    scanf("%d",&search);
+    scanf("%c",&search);
 
     //Performing linear search of string
     for(i = 0; i < size; i++)
@@ -32,7 +32,7 @@ void main()
         if(ch[i] == search)
         {
             count++;
-            printf("\n%d character is found %d times at postion %d ", search, i, count);
+            printf("\n%c character is found %c times at postion %c ", search, i, count);
         }
     }
 }
